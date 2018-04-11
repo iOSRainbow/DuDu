@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A20F39D207D94460067828E /* BluetoothUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A20F398207D94460067828E /* BluetoothUtils.m */; };
-		0A20F39E207D94460067828E /* LSFEasy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A20F39A207D94460067828E /* LSFEasy.m */; };
-		0A20F39F207D94460067828E /* LSFUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A20F39C207D94460067828E /* LSFUtil.m */; };
+		0A20F3A6207D95140067828E /* LSFEasy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A20F3A1207D95140067828E /* LSFEasy.m */; };
+		0A20F3A7207D95140067828E /* BluetoothUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A20F3A3207D95140067828E /* BluetoothUtils.m */; };
+		0A20F3A8207D95140067828E /* LSFUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A20F3A5207D95140067828E /* LSFUtil.m */; };
 		0AF0DB2820156AAA00FF2AD0 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF0DB2720156AAA00FF2AD0 /* libstdc++.6.0.9.tbd */; };
 		0AF6C203200DA64A005F03A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF6C202200DA64A005F03A6 /* AppDelegate.m */; };
 		0AF6C20B200DA64A005F03A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF6C20A200DA64A005F03A6 /* Assets.xcassets */; };
@@ -104,12 +104,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A20F397207D94460067828E /* BluetoothUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothUtils.h; sourceTree = "<group>"; };
-		0A20F398207D94460067828E /* BluetoothUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothUtils.m; sourceTree = "<group>"; };
-		0A20F399207D94460067828E /* LSFEasy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSFEasy.h; sourceTree = "<group>"; };
-		0A20F39A207D94460067828E /* LSFEasy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSFEasy.m; sourceTree = "<group>"; };
-		0A20F39B207D94460067828E /* LSFUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSFUtil.h; sourceTree = "<group>"; };
-		0A20F39C207D94460067828E /* LSFUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSFUtil.m; sourceTree = "<group>"; };
+		0A20F3A0207D95140067828E /* LSFEasy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSFEasy.h; sourceTree = "<group>"; };
+		0A20F3A1207D95140067828E /* LSFEasy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSFEasy.m; sourceTree = "<group>"; };
+		0A20F3A2207D95140067828E /* LSFUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSFUtil.h; sourceTree = "<group>"; };
+		0A20F3A3207D95140067828E /* BluetoothUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothUtils.m; sourceTree = "<group>"; };
+		0A20F3A4207D95140067828E /* BluetoothUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothUtils.h; sourceTree = "<group>"; };
+		0A20F3A5207D95140067828E /* LSFUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSFUtil.m; sourceTree = "<group>"; };
 		0AF0DB2520156A6100FF2AD0 /* BMKLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BMKLocationKit.framework; path = ../../Downloads/BaiduLoc_iOSSDK_All_Bitcode_v1.1/BaiduLoc_iOSSDK_Libs_Bitcode_v1.1/BMKLocationKit.framework; sourceTree = "<group>"; };
 		0AF0DB2720156AAA00FF2AD0 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		0AF6C1FE200DA64A005F03A6 /* DuoDuo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuoDuo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -309,19 +309,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A20F396207D94460067828E /* Class */ = {
-			isa = PBXGroup;
-			children = (
-				0A20F397207D94460067828E /* BluetoothUtils.h */,
-				0A20F398207D94460067828E /* BluetoothUtils.m */,
-				0A20F399207D94460067828E /* LSFEasy.h */,
-				0A20F39A207D94460067828E /* LSFEasy.m */,
-				0A20F39B207D94460067828E /* LSFUtil.h */,
-				0A20F39C207D94460067828E /* LSFUtil.m */,
-			);
-			path = Class;
-			sourceTree = "<group>";
-		};
 		0AF6C1F5200DA64A005F03A6 = {
 			isa = PBXGroup;
 			children = (
@@ -342,7 +329,6 @@
 		0AF6C200200DA64A005F03A6 /* DuoDuo */ = {
 			isa = PBXGroup;
 			children = (
-				0A20F396207D94460067828E /* Class */,
 				0AF6C2B0200DA727005F03A6 /* Common */,
 				0AF6C2B3200DA727005F03A6 /* Controller */,
 				0AF6C217200DA727005F03A6 /* third */,
@@ -672,6 +658,12 @@
 		0AF6C2B0200DA727005F03A6 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				0A20F3A4207D95140067828E /* BluetoothUtils.h */,
+				0A20F3A3207D95140067828E /* BluetoothUtils.m */,
+				0A20F3A0207D95140067828E /* LSFEasy.h */,
+				0A20F3A1207D95140067828E /* LSFEasy.m */,
+				0A20F3A2207D95140067828E /* LSFUtil.h */,
+				0A20F3A5207D95140067828E /* LSFUtil.m */,
 				0AF6C2B1200DA727005F03A6 /* CommonViewController.h */,
 				0AF6C2B2200DA727005F03A6 /* CommonViewController.m */,
 			);
@@ -838,8 +830,8 @@
 				0AF6C2EC200DA728005F03A6 /* MJRefreshHeader.m in Sources */,
 				0AF6C211200DA64A005F03A6 /* main.m in Sources */,
 				0AF6C312200DA728005F03A6 /* RegisterViewController.m in Sources */,
+				0A20F3A7207D95140067828E /* BluetoothUtils.m in Sources */,
 				0AF6C300200DA728005F03A6 /* SDWebImageDownloader.m in Sources */,
-				0A20F39E207D94460067828E /* LSFEasy.m in Sources */,
 				0AF6C304200DA728005F03A6 /* UIButton+WebCache.m in Sources */,
 				0AF6C2D6200DA728005F03A6 /* YYMemoryCache.m in Sources */,
 				0AF6C2CD200DA728005F03A6 /* AFNetworkReachabilityManager.m in Sources */,
@@ -852,8 +844,7 @@
 				0AF6C2F9200DA728005F03A6 /* UIScrollView+MJRefresh.m in Sources */,
 				0AF6C30C200DA728005F03A6 /* GoodDetailView.m in Sources */,
 				0AF6C301200DA728005F03A6 /* SDWebImageDownloaderOperation.m in Sources */,
-				0A20F39F207D94460067828E /* LSFUtil.m in Sources */,
-				0A20F39D207D94460067828E /* BluetoothUtils.m in Sources */,
+				0A20F3A8207D95140067828E /* LSFUtil.m in Sources */,
 				0AF6C2F1200DA728005F03A6 /* MJRefreshBackNormalFooter.m in Sources */,
 				0AF6C2E0200DA728005F03A6 /* IQTitleBarButtonItem.m in Sources */,
 				0AF6C30D200DA728005F03A6 /* HomeViewController.m in Sources */,
@@ -885,6 +876,7 @@
 				0AF6C305200DA728005F03A6 /* UIImage+GIF.m in Sources */,
 				0AF6C2F4200DA728005F03A6 /* MJRefreshNormalHeader.m in Sources */,
 				0AF6C2EA200DA728005F03A6 /* MJRefreshComponent.m in Sources */,
+				0A20F3A6207D95140067828E /* LSFEasy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
