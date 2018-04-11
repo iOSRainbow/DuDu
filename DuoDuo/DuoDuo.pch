@@ -1,0 +1,66 @@
+//
+//  DuoDuo.pch
+//  DuoDuo
+//
+//  Created by 李世飞 on 2018/1/16.
+//  Copyright © 2018年 李世飞. All rights reserved.
+//
+
+#ifndef DuoDuo_pch
+#define DuoDuo_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#define SPS_SERVICE_UUID   @"0000ffd0-0000-1000-8000-00805f9b34fb" //服务UUID
+#define SPS_CHAR_UUID      @"0000ffd1-0000-1000-8000-00805f9b34fb" //特征UUID
+
+
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+
+#define iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define NavigationHeight (iPhoneX?88:64) //导航
+#define TabbarHeight (iPhoneX?34:0)  //iphone x底部预留34
+#define StatusHeight (iPhoneX?44:20)  //状态栏
+#define BottomHeight (SCREEN_HEIGHT-TabbarHeight-50)  //底部提交订单之类的
+#define ViewHeight (SCREEN_HEIGHT-NavigationHeight-TabbarHeight) //VC
+
+#define ColorHUI [UIColor colorWithRed:225/255.0 green:225/255.0 blue:225/255.0 alpha:1.0]
+
+
+#define MS_RGB(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+
+#define MS_RGBA(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f \
+alpha:(a)]
+
+#define black  [UIColor blackColor]
+#define white  [UIColor whiteColor]
+#define gray  [UIColor grayColor]
+#define orange   [UIColor orangeColor]
+#define Red     [UIColor redColor]
+#define darkGray [UIColor darkGrayColor]
+#define Clear [UIColor clearColor]
+
+
+#define font14 [UIFont systemFontOfSize:14.0]
+#define font15 [UIFont systemFontOfSize:15.0]
+#define font16 [UIFont systemFontOfSize:16.0]
+
+#import "LSFUtil.h"
+#import "LSFEasy.h"
+#import "MBProgressHUD.h"
+#import "UIViewController+HUD.h"
+#import "API.h"
+#import "SDImageCache.h"
+#import "UIImageView+WebCache.h"
+#import "BluetoothUtils.h"
+#import "CommonViewController.h"
+
+//#define NSLog(...) printf("李子涵真可爱:%s\n",[[NSString stringWithFormat:__VA_ARGS__]UTF8String]);
+
+#endif /* DuoDuo_pch */
